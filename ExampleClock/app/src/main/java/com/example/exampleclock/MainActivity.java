@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(),addAlarm.class);
-                startActivityForResult(intent,RESULT_OK);
+                startActivity(intent);
             }
         });
         LinearLayout l2=new LinearLayout(this);
